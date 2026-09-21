@@ -1,0 +1,20 @@
+{
+  "book_id": "pharmacology",
+  "book_title": "药理学",
+  "edition": "第九版",
+  "source_pdf": "药理学 第九版 (杨宝峰, 陈建国, 主编) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "pdf_pages": 527,
+  "pages_with_at_least_30_characters": 527,
+  "ocr_pages": 527,
+  "pages_without_chunks": [],
+  "expected_chunks": 1258,
+  "stored_chunks": 1258,
+  "reused_chroma_vectors_this_run": 43,
+  "embedding_model": "qwen3.7-text-embedding-flash",
+  "embedding_dimension": 1024,
+  "api_tokens_recorded": 510707,
+  "api_calls_recorded": 122,
+  "estimated_embedding_list_price_cny": 0.063838,
+  "billing_note": "List-price estimate; free quota/discounts and query/LLM costs excluded.",
+  "status": "ready"
+}

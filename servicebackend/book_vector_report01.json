@@ -1,0 +1,138 @@
+{
+  "model": "qwen3.7-text-embedding-flash",
+  "embedding_dimension": 1024,
+  "price_cny_per_1000_tokens": 0.000125,
+  "max_cost_cny": 0.1,
+  "page_numbering": "1-based PDF page number; may differ from printed textbook page",
+  "api_calls": 17,
+  "api_tokens_total_including_queries": 60241,
+  "estimated_list_price_cny": 0.00753,
+  "billing_note": "List-price estimate, not actual charge; free quota and account discounts may apply.",
+  "vector_store": "servicebackend/book_vectors01",
+  "collection": "medical_books_trial01",
+  "collection_count": 135,
+  "books": [
+    {
+      "book_id": "internal_medicine",
+      "title": "内科学",
+      "edition": "第10版",
+      "source_pdf": "内科学第10版 (葛均波, 王辰, 王建安) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_pages": [
+        100,
+        119
+      ],
+      "pages_with_text": 20,
+      "pages_indexed": 20,
+      "pages_without_chunks": [],
+      "ocr_pages": 0,
+      "characters": 34051,
+      "chunks": 56,
+      "new_chunks": 56,
+      "reused_chunks": 0,
+      "api_tokens": 26074,
+      "estimated_list_price_cny": 0.003259
+    },
+    {
+      "book_id": "diagnostics",
+      "title": "诊断学",
+      "edition": "版次待核实",
+      "source_pdf": "诊断学 (万学红，卢雪峰) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_pages": [
+        100,
+        119
+      ],
+      "pages_with_text": 19,
+      "pages_indexed": 18,
+      "pages_without_chunks": [
+        105,
+        106
+      ],
+      "ocr_pages": 2,
+      "characters": 21836,
+      "chunks": 36,
+      "new_chunks": 36,
+      "reused_chunks": 0,
+      "api_tokens": 15650,
+      "estimated_list_price_cny": 0.001956
+    },
+    {
+      "book_id": "pharmacology",
+      "title": "药理学",
+      "edition": "第九版",
+      "source_pdf": "药理学 第九版 (杨宝峰, 陈建国, 主编) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_pages": [
+        100,
+        119
+      ],
+      "pages_with_text": 20,
+      "pages_indexed": 20,
+      "pages_without_chunks": [],
+      "ocr_pages": 20,
+      "characters": 26172,
+      "chunks": 43,
+      "new_chunks": 43,
+      "reused_chunks": 0,
+      "api_tokens": 18445,
+      "estimated_list_price_cny": 0.002306
+    }
+  ],
+  "retrieval_checks": [
+    {
+      "book_id": "internal_medicine",
+      "query": "肺脓肿有哪些临床表现？",
+      "query_tokens": 21,
+      "hits": [
+        {
+          "pdf_page": 100,
+          "distance": 0.5343
+        },
+        {
+          "pdf_page": 101,
+          "distance": 0.6467
+        },
+        {
+          "pdf_page": 100,
+          "distance": 0.7268
+        }
+      ]
+    },
+    {
+      "book_id": "diagnostics",
+      "query": "问诊中应避免哪些不恰当提问？",
+      "query_tokens": 24,
+      "hits": [
+        {
+          "pdf_page": 100,
+          "distance": 0.8083
+        },
+        {
+          "pdf_page": 102,
+          "distance": 0.9305
+        },
+        {
+          "pdf_page": 100,
+          "distance": 0.9469
+        }
+      ]
+    },
+    {
+      "book_id": "pharmacology",
+      "query": "M胆碱受体阻断药有哪些解痉药？",
+      "query_tokens": 27,
+      "hits": [
+        {
+          "pdf_page": 100,
+          "distance": 0.433
+        },
+        {
+          "pdf_page": 101,
+          "distance": 0.5809
+        },
+        {
+          "pdf_page": 102,
+          "distance": 0.7105
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+:root {
+  --medical-canvas: oklch(97% 0.012 245);
+  --medical-surface: oklch(99.3% 0.005 245);
+  --medical-sidebar: oklch(95.5% 0.015 245);
+  --medical-surface-blue: oklch(95.5% 0.025 245);
+  --medical-user-bubble: oklch(91.5% 0.052 248);
+  --medical-ink: oklch(25% 0.025 250);
+  --medical-ink-soft: oklch(42% 0.024 248);
+  --medical-muted: oklch(54% 0.018 248);
+  --medical-line: oklch(87% 0.018 245);
+  --medical-line-strong: oklch(77% 0.028 245);
+  --medical-accent: oklch(53% 0.18 250);
+  --medical-accent-ink: oklch(99.3% 0.005 245);
+  --medical-accent-hover: oklch(47% 0.18 250);
+  --medical-focus: oklch(57% 0.15 250);
+  --medical-danger: oklch(55% 0.19 25);
+  --medical-overlay: oklch(26% 0.025 250 / 0.36);
+  --medical-shadow: oklch(26% 0.025 250 / 0.08);
+
+  --medical-font-display: 'Avenir Next', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --medical-font-body: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
+
+  --medical-space-xs: 0.5rem;
+  --medical-space-sm: 0.75rem;
+  --medical-space-md: 1rem;
+  --medical-space-lg: 1.5rem;
+  --medical-space-xl: 2rem;
+
+  --medical-radius-sm: 0.5rem;
+  --medical-radius-md: 0.75rem;
+  --medical-radius-lg: 1rem;
+
+  --medical-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --medical-duration-short: 160ms;
+}

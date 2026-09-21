@@ -1,0 +1,20 @@
+{
+  "book_id": "internal_medicine",
+  "book_title": "内科学",
+  "edition": "第10版",
+  "source_pdf": "内科学第10版 (葛均波, 王辰, 王建安) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+  "pdf_pages": 982,
+  "pages_with_at_least_30_characters": 982,
+  "ocr_pages": 15,
+  "pages_without_chunks": [],
+  "expected_chunks": 2560,
+  "stored_chunks": 2560,
+  "reused_chroma_vectors_this_run": 36,
+  "embedding_model": "qwen3.7-text-embedding-flash",
+  "embedding_dimension": 1024,
+  "api_tokens_recorded": 1131870,
+  "api_calls_recorded": 253,
+  "estimated_embedding_list_price_cny": 0.141484,
+  "billing_note": "List-price estimate; free quota/discounts and query/LLM costs excluded.",
+  "status": "ready"
+}
